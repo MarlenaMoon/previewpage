@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(242, 228, 218);
+    font-size: 14px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 2fr 2fr auto;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    align-content: center;
+}
+
+.price {
+    display: flex;
+    -ms-flex-item-align: center;
+}
